@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[1,08,00,000 Results]]>
+    </line>
+  </reporter-output>
+  <suite name="Day2Suite" duration-ms="14312" started-at="2019-08-25T13:15:47Z" finished-at="2019-08-25T13:16:02Z">
+    <groups>
+    </groups>
+    <test name="BingValidation" duration-ms="14312" started-at="2019-08-25T13:15:47Z" finished-at="2019-08-25T13:16:02Z">
+      <class name="com.hsbc.testcases.Day2_BingValidation">
+        <test-method status="PASS" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.hsbc.testcases.Day2_BingValidation@26653222]" name="initBrowser" is-config="true" duration-ms="6803" started-at="2019-08-25T06:15:47Z" finished-at="2019-08-25T06:15:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bing.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="bingValidation()[pri:0, instance:com.hsbc.testcases.Day2_BingValidation@26653222]" name="bingValidation" duration-ms="6774" started-at="2019-08-25T06:15:54Z" finished-at="2019-08-25T06:16:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[1,08,00,000 Results]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bingValidation -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.hsbc.testcases.Day2_BingValidation@26653222]" name="exitBrowser" is-config="true" duration-ms="714" started-at="2019-08-25T06:16:01Z" finished-at="2019-08-25T06:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- com.hsbc.testcases.Day2_BingValidation -->
+    </test> <!-- BingValidation -->
+  </suite> <!-- Day2Suite -->
+</testng-results>

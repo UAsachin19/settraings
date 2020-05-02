@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HsbcSearchValidation"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.963">
+  <properties />
+  
+  
+            <testcase name="hsbcSearchValidation" time="6.963" classname="com.hsbc.testcases.Day2_HsbcSearchValidation" />
+      
+</testsuite>

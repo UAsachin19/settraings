@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Day2Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="BingValidation(failed)">
+    <parameter name="AppUrl" value="https://www.bing.com/"/>
+    <parameter name="BrowserToBeOpened" value="chrome"/>
+    <classes>
+      <class name="com.hsbc.testcases.Day2_BingValidation">
+        <methods>
+          <include name="bingValidation"/>
+          <include name="initBrowser"/>
+          <include name="exitBrowser"/>
+        </methods>
+      </class> <!-- com.hsbc.testcases.Day2_BingValidation -->
+    </classes>
+  </test> <!-- BingValidation(failed) -->
+</suite> <!-- Failed suite [Day2Suite] -->

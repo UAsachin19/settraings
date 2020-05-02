@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Day1Suite" parallel="tests">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+
+  <test name="Chrome_TitleValidation" enabled="true">
+  	
+  	<parameter name="BrowserToBeOpened" value="chrome"></parameter>
+  	<parameter name="AppUrl" value="https://www.seleniumhq.org"></parameter>
+  	<parameter name="ExpectedTitle" value="Selenium - Web Browser Automation"></parameter>
+  	  	
+    <classes>
+      <class name="com.hsbc.testcases.Day1_TitleValidation"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+  <test name="Firefox_TitleValidation" enabled="true">
+  	
+  	<parameter name="BrowserToBeOpened" value="firefox"></parameter>
+  	<parameter name="AppUrl" value="https://www.seleniumhq.org"></parameter>
+  	<parameter name="ExpectedTitle" value="Selenium - Web Browser Automation"></parameter>
+  	  	
+  	<classes>
+      <class name="com.hsbc.testcases.Day1_TitleValidation"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+  
+   <test name="IE_TitleValidation" enabled="true">
+  	
+  	<parameter name="BrowserToBeOpened" value="ie"></parameter>
+  	<parameter name="AppUrl" value="https://www.seleniumhq.org"></parameter>
+  	<parameter name="ExpectedTitle" value="Selenium - Web Browser Automation"></parameter>
+  	  	
+  	<classes>
+      <class name="com.hsbc.testcases.Day1_TitleValidation"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+  
+</suite> <!-- Day1Suite -->

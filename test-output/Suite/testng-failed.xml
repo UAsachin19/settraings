@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test Set 2(failed)">
+    <classes>
+      <class name="com.hsbc.testng.Testng6">
+        <methods>
+          <include name="softAssertion"/>
+          <include name="hardAssertion"/>
+        </methods>
+      </class> <!-- com.hsbc.testng.Testng6 -->
+      <class name="com.hsbc.testng.Testng5">
+        <methods>
+          <include name="t4"/>
+          <include name="t1"/>
+          <include name="t2"/>
+          <include name="t3"/>
+        </methods>
+      </class> <!-- com.hsbc.testng.Testng5 -->
+    </classes>
+  </test> <!-- Test Set 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Day2Suite" parallel="none">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+
+  <test name="PageContentValidation" enabled="false">
+  	
+  	<parameter name="BrowserToBeOpened" value="chrome"></parameter>
+  	<parameter name="AppUrl" value="https://www.seleniumhq.org"></parameter>
+  	<parameter name="expectedcontent" value="What is Selenium"></parameter>
+  	  	
+    <classes>
+      <class name="com.hsbc.testcases.Day2_PageContentValidation"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+  <test name="HsbcSearchValidation" enabled="false">
+  	
+  	<parameter name="BrowserToBeOpened" value="chrome"></parameter>
+  	<parameter name="AppUrl" value="https://www.hsbc.co.in"></parameter>
+  	  	  	
+    <classes>
+      <class name="com.hsbc.testcases.Day2_HsbcSearchValidation"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+  <test name="HsbcDynamicMenu" enabled="false">
+  	
+  	<parameter name="BrowserToBeOpened" value="chrome"></parameter>
+  	<parameter name="AppUrl" value="https://www.hsbc.co.in"></parameter>
+  	  	  	
+    <classes>
+      <class name="com.hsbc.testcases.Day2_HsbcDynamicMenu"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+   <test name="HsbcScrollingPage" enabled="false">
+  	
+  	<parameter name="BrowserToBeOpened" value="chrome"></parameter>
+  	<parameter name="AppUrl" value="https://www.hsbc.co.in"></parameter>
+  	  	  	
+    <classes>
+      <class name="com.hsbc.testcases.Day2_HsbcScrollingPage"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+    <test name="HsbcSearchAjaxValidation" enabled="true">
+  	
+  	<parameter name="BrowserToBeOpened" value="chrome"></parameter>
+  	<parameter name="AppUrl" value="https://www.hsbc.co.in"></parameter>
+  	  	  	
+    <classes>
+      <class name="com.hsbc.testcases.Day2_HsbcSearchAjaxValidation"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+  <test name="BingSearchValidation" enabled="false">
+  	
+  	<parameter name="BrowserToBeOpened" value="chrome"></parameter>
+  	<parameter name="AppUrl" value="https://www.bing.com/"></parameter>
+  	  	  	
+    <classes>
+      <class name="com.hsbc.testcases.Day2_BingSearchValidation"/>
+    </classes>
+  </test> <!-- TitleValidation -->
+  
+    
+  
+</suite> <!-- Day1Suite -->

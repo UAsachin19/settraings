@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IE_TitleValidation"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.030">
+  <properties />
+  
+  
+            <testcase name="titleValidation" time="0.030" classname="com.hsbc.testcases.Day1_TitleValidation" />
+      
+</testsuite>
